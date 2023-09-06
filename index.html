@@ -37,7 +37,8 @@
             </li>
           </ul>
         </nav>
-        <button class="mobile-btn" type="button">
+        <!-- TODO: delete js-open-menu -->
+        <button class="mobile-btn js-open-menu" type="button">
           <svg class="icon-mobile" width="24" height="24">
             <use href="./images/icons.svg#burger-icon"></use>
           </svg>
@@ -57,10 +58,11 @@
           </ul>
         </address>
       </div>
-
-      <div class="mobile-menu">
+      <!-- TODO: delete js-menu-container -->
+      <div class="mobile-menu js-menu-container">
         <div class="container thumb-mobile">
-          <button class="mobile-close" type="button">
+          <!-- TODO: delete js-close-menu -->
+          <button class="mobile-close js-close-menu" type="button">
             <svg class="icon-mobile" width="8" height="8">
               <use href="./images/icons.svg#close"></use>
             </svg>
@@ -127,19 +129,19 @@
 
     <main>
       <!------------- Hero section ------------->
-      <!-- <section class="hero">
-        <div class="container">
+      <section class="hero">
+        <div class="container thum-hero">
           <h1 class="hero-title">
             Effective Solutions <br />
             for Your Business
           </h1>
           <button class="main-btn" type="button">Order Service</button>
         </div>
-      </section> -->
+      </section>
 
       <!------------- Benefits section ------------->
-      <!-- <section class="section">
-        <div class="container">
+      <section class="section">
+        <div class="container thumb-benefit">
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="general-list">
             <li class="benefit-item">
@@ -192,14 +194,13 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!------------- Our Team ------------->
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="main-title">Our Team</h2>
           <ul class="general-list">
-           
             <li class="team-item">
               <img src="./images/photo1.jpg" alt="photo" width="264" />
               <div class="team-info">
@@ -238,7 +239,6 @@
               </div>
             </li>
 
-           
             <li class="team-item">
               <img src="./images/photo2.jpg" alt="photo" width="264" />
               <div class="team-info">
@@ -277,7 +277,6 @@
               </div>
             </li>
 
-            
             <li class="team-item">
               <img src="./images/photo3.jpg" alt="photo" width="264" />
               <div class="team-info">
@@ -316,7 +315,6 @@
               </div>
             </li>
 
-            
             <li class="team-item">
               <img src="./images/photo4.jpg" alt="photo" width="264" />
               <div class="team-info">
@@ -356,10 +354,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!------------- Our Portfolio ------------->
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="main-title">Our Portfolio</h2>
           <ul class="general-list portfolio-list">
@@ -478,10 +476,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer class="site-bootom">
+    <footer class="site-bootom">
       <div class="container bootom-blocks">
         <div class="logo-block">
           <a class="logo-bootom" href="./index.html"
@@ -494,7 +492,7 @@
         </div>
 
         <div class="social-block">
-          <p class="general-text">Social media</p>
+          <p class="text-bootom">Social media</p>
           <ul class="social-list">
             <li class="social-item">
               <a class="social-link" href="https://www.instagram.com/">
@@ -528,7 +526,7 @@
         </div>
 
         <div class="subscribe-block">
-          <p class="general-text">Subscribe</p>
+          <p class="text-bootom">Subscribe</p>
           <form class="subscribe-form">
             <label class="subscribe-label">
               <input
@@ -547,7 +545,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- <div class="backdrop is-open">
       <div class="modal">
@@ -635,5 +633,7 @@
         </form>
       </div>
     </div> -->
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
