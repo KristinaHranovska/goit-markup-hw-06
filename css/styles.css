@@ -1102,8 +1102,6 @@ address {
         border: none;
     }
 
-
-
     .modal-title {
         color: var(--dark);
         text-align: center;
@@ -1201,6 +1199,8 @@ address {
     }
 
     .modal-text {
+        display: flex;
+        align-items: center;
         color: var(--subtle-text);
         font-size: 12px;
         line-height: 1.17;
@@ -1208,7 +1208,7 @@ address {
     }
 
     .icon-check {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         justify-content: center;
 
