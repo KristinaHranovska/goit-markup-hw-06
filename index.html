@@ -135,7 +135,9 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="main-btn" type="button">Order Service</button>
+          <button class="main-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -712,9 +714,9 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button class="modal-close" type="button">
+        <button class="modal-close" type="button" data-modal-close>
           <svg class="close-modal" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
@@ -800,5 +802,7 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
