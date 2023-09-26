@@ -1224,8 +1224,8 @@ address {
     }
 
     .check {
-        width: 16px;
-        height: 16px;
+        width: 10px;
+        height: 8px;
     }
 
     .check-input:checked+.modal-text .icon-check {
